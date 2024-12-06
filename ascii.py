@@ -21,9 +21,8 @@ def run_tests():
     print("Expected text:", repr(expected_text))
     
     # Comparaison détaillée
-    # Comparaison détaillée avec diagnostic exhaustif
     if decrypted_text != expected_text:
-        print("❌ Les chaînes ne correspondent pas ! Diagnostic détaillé :\n")
+        print("Les chaînes ne correspondent pas ! Diagnostic détaillé :\n")
         print(f"Longueur chaîne décryptée : {len(decrypted_text)}")
         print(f"Longueur chaîne attendue  : {len(expected_text)}\n")
         
